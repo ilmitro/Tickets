@@ -1,0 +1,8 @@
+/* -------- container -------- */
+
+.container {
+  @include clearfix;
+
+  max-width: 1170px;
+  margin: 0 auto;
+}

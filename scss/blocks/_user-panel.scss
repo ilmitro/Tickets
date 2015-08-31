@@ -1,0 +1,22 @@
+/* -------- user-panel -------- */
+
+.user-panel {
+  padding: 15px 0;
+  margin-bottom: 40px;
+  color: $color-text-secondary;
+  background-color: lighten($color-gray-base, 90%);
+
+  &__message {
+    float: left;
+    font-style: italic;
+  }
+
+  &__account {
+    float: right;
+    padding-left: 30px;
+  }
+
+  &__name {
+    color: $color-text-secondary;
+  }
+}

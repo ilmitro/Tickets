@@ -1,0 +1,33 @@
+/* -------- cart -------- */
+
+.cart {
+  position: relative;
+  display: block;
+  text-align: right;
+
+  &:hover .icon-cart {
+    background-color: $color-brand-darker;
+  }
+
+  .icon-cart {
+    position: absolute;
+    left: 33%;
+    padding: 9px 8px;
+    font-size: 20px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: $color-brand;
+  }
+
+  &__info {
+    color: lighten($color-gray-base, 60%);
+  }
+
+  &__title {
+    display: inline-block;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $color-brand;
+  }
+}

@@ -1,0 +1,8 @@
+/* -------- body -------- */
+
+.body {
+  font-family: 'Roboto', sans-serif;
+  font-size: $font-size-text;
+  color: $color-text-base;
+  background-color: lighten($color-gray-base, 95%);
+}
