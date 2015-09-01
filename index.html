@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="css/vendor/normalize.css">
   <!-- fontello -->
   <link rel="stylesheet" href="css/vendor/fontello.css">
+  <!-- слайдер flickity -->
+  <link rel="stylesheet" href="css/vendor/flickity.css" media="screen">
   <!-- main style -->
   <link rel="stylesheet" href="css/style.css">
   <!-- fonts -->
@@ -83,14 +85,12 @@
           <li class="nav-main__item"><a class="nav-main__link link" href="#">Special offers</a></li>
           <li class="nav-main__item"><a class="nav-main__link link" href="#">Contact us</a></li>
           
-          <!-- блок социальных иконок -->
           <li class="nav-main__item">
             <a class="nav-main__social link" href="#"><i class="icon-facebook"></i></a>
             <a class="nav-main__social link" href="#"><i class="icon-gplus"></i></a>
             <a class="nav-main__social link" href="#"><i class="icon-twitter"></i></a>
             <a class="nav-main__social link" href="#"><i class="icon-instagram"></i></a>
           </li>
-          <!-- /.блок социальных иконок -->
         </ul>
       </nav>
 
@@ -98,6 +98,86 @@
     <!-- /.container -->
   </header>
   <!-- /.header-page -->
+  
+
+  <!-- content -->
+  <main>
+    
+    <div class="container">
+      
+      <div class="promo">
+        
+        <!-- слайдер flickity -->
+        <div class="main-gallery">
+          
+          <div class="gallery-cell">
+            <img src="img/slider-1.jpg" alt="Queens of the stone age">
+
+            <div class="description description--position-slider">
+              <div class="description__title description__title--size-slider">Qeens of the <br>stone age</div>
+              <div class="description__text">November 2015</div>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star icon-star--white"></i>
+              <a class="description__link link link--underline"href="#">Get it now !</a>
+            </div>
+            <!-- /.description -->
+          </div>
+          <!-- /.gallery-cell -->
+          
+          <div class="gallery-cell"><img src="img/slider-2.jpg" alt="Queens of the stone age">
+
+            <div class="description description--position-slider">
+              <div class="description__title description__title--size-slider">Qeens of the <br>stone age</div>
+              <div class="description__text">November 2015</div>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star icon-star--white"></i>
+              <a class="description__link link link--underline"href="#">Get it now !</a>
+            </div>
+            <!-- /.description -->
+          </div>
+          <!-- /.gallery-cell -->
+          
+          <div class="gallery-cell"><img src="img/slider-3.jpg" alt="Queens of the stone age">
+
+            <div class="description description--position-slider">
+              <div class="description__title description__title--size-slider">Qeens of the <br>stone age</div>
+              <div class="description__text">November 2015</div>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star icon-star--white"></i>
+              <a class="description__link link link--underline"href="#">Get it now !</a>
+            </div>
+            <!-- /.description -->
+          </div>
+          <!-- /.gallery-cell -->
+        
+        </div>
+        <!-- /.main-gallery -->
+      </div>
+      <!-- /.promo -->
+    
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <!-- /.container -->
+  </main>
 
 
 
@@ -126,7 +206,15 @@
 
 
 
-
+<script src="js/vendor/flickity.pkgd.min.js"></script>
+<script>
+  var flkty = new Flickity( '.main-gallery', {
+   autoPlay: true,
+   wrapAround: true,
+   cellAlign: 'left',
+   contain: true 
+  });
+</script>
   
 </body>
 </html>

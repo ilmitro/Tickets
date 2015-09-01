@@ -1,0 +1,45 @@
+/* -------- description -------- */
+
+.description {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  &__title {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #fff;
+
+    &--size-slider {
+      font-size: 30px;
+    }
+  }
+
+  &__text {
+    margin-bottom: 25px;
+    color: $color-text-secondary;
+  }
+
+  .icon-star {
+    color: $color-star;
+
+    &--white {
+      color: #fff;
+    }
+  }
+
+  &__link {
+    display: block;
+    margin-top: 15px;
+    color: #fff;
+
+    &:hover {
+      color: $color-brand;
+    }
+  }
+
+  &--position-slider {
+    top: 80px;
+    right: 130px;
+  }
+}

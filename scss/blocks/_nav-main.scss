@@ -69,6 +69,7 @@
     border: 1px solid $color-gray-lighter;
     border-top: none;
     background-color: #fff;
+    z-index: 100;
   }
 
   &__sub-item {

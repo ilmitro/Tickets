@@ -257,6 +257,7 @@
   border: 1px solid #cccccc;
   border-top: none;
   background-color: #fff;
+  z-index: 100;
 }
 .nav-main__sub-item {
   font-size: 15px;
@@ -279,4 +280,42 @@
   padding: 20px 15px;
   margin-right: 15px;
   border-right: 1px solid #cccccc;
+}
+
+/* -------- promo -------- */
+/* -------- description -------- */
+.description {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.description__title {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+.description__title--size-slider {
+  font-size: 30px;
+}
+.description__text {
+  margin-bottom: 25px;
+  color: #666666;
+}
+.description .icon-star {
+  color: #f6b63a;
+}
+.description .icon-star--white {
+  color: #fff;
+}
+.description__link {
+  display: block;
+  margin-top: 15px;
+  color: #fff;
+}
+.description__link:hover {
+  color: #1e84cc;
+}
+.description--position-slider {
+  top: 80px;
+  right: 130px;
 }
