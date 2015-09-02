@@ -1,0 +1,42 @@
+/* -------- filter -------- */
+
+.filter {
+  float: right;
+  margin: 0;
+  padding: 0;
+  line-height: 24px;
+  list-style: none;
+
+  &__item {
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  &__link {
+    position: relative;
+    display: inline-block;
+    color: lighten($color-gray-base, 65%);
+    padding-left: 30px;
+
+    &:before {
+      /* маркер */
+      position: absolute;
+      top: 9px;
+      left: 13px;
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      content: '';
+      border-radius: 50%;
+      background-color: lighten($color-gray-base, 65%);
+    }
+
+    &--active {
+      color: $color-text-base;
+
+      &:before {
+        background-color: $color-text-base;
+      }
+    }
+  }
+}

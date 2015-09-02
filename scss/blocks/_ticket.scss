@@ -1,0 +1,57 @@
+/* -------- ticket -------- */
+
+.ticket {
+  position: relative;
+  margin-top: 40px;
+  border: 1px solid $color-gray-lighter;
+  background-color: #fff;
+
+  &__img {
+    @include img-responsive;
+  }
+
+  &__title {
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-size: ($font-size-base - 3px);
+    color: $color-text-secondary;
+  }
+
+  &__text {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: ($font-size-base);
+  }
+
+  &__label {
+    position: absolute;
+    bottom: 15px;
+    right: 35px;
+    padding: 3px 10px;
+    font-size: ($font-size-base - 5px);
+    border: 1px solid #ef8742;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ef8742;
+  }
+
+  &__link {
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    font-size: ($font-size-base - 4px);
+    border-radius: 4px;
+    font-weight: bold;
+    color: $color-text-secondary;
+    background-color: lighten($color-gray-base, 90%);
+
+    &:hover {
+      color: #fff;
+      background-color: $color-brand;
+    }
+  }
+}

@@ -125,9 +125,10 @@
             </div>
             <!-- /.description -->
           </div>
-          <!-- /.gallery-cell -->
           
-          <div class="gallery-cell"><img src="img/slider-2.jpg" alt="Queens of the stone age">
+          
+          <div class="gallery-cell">
+            <img src="img/slider-2.jpg" alt="Queens of the stone age">
 
             <div class="description description--position-slider">
               <div class="description__title description__title--size-slider">Qeens of the <br>stone age</div>
@@ -141,9 +142,10 @@
             </div>
             <!-- /.description -->
           </div>
-          <!-- /.gallery-cell -->
           
-          <div class="gallery-cell"><img src="img/slider-3.jpg" alt="Queens of the stone age">
+          
+          <div class="gallery-cell">
+            <img src="img/slider-3.jpg" alt="Queens of the stone age">
 
             <div class="description description--position-slider">
               <div class="description__title description__title--size-slider">Qeens of the <br>stone age</div>
@@ -157,14 +159,73 @@
             </div>
             <!-- /.description -->
           </div>
-          <!-- /.gallery-cell -->
+          
         
         </div>
         <!-- /.main-gallery -->
       </div>
       <!-- /.promo -->
+
+      
+      <!-- hot-tickets -->
+      <section class="section">
+        <h2 class="section__title">Hot tickets</h2>
+        <ul class="filter">
+          <li class="filter__item"><a class="filter__link filter__link--active link link--underline" href="#">Music</a></li>
+          <li class="filter__item"><a class="filter__link link link--underline" href="#">Movies</a></li>
+          <li class="filter__item"><a class="filter__link link link--underline" href="#">Sport</a></li>
+          <li class="filter__item"><a class="filter__link link link--underline" href="#">Comedy</a></li>
+          <li class="filter__item"><a class="filter__link link link--underline" href="#">Family</a></li>
+          <li class="filter__item"><a class="filter__link link link--underline" href="#">Arts</a></li>
+          <li class="filter__item"><a class="filter__link link link--underline" href="#">Theatre</a></li>
+          <li class="filter__item"><a class="filter__link link link--underline" href="#">Fashion</a></li>
+          <li class="filter__item"><a class="filter__link link link--underline" href="#">Food</a></li>
+        </ul>
+
+        <div class="row row--inline">
+          <div class="col-3">
+            <div class="ticket">
+              <img class="ticket__img" src="pict/tickets/h-ticket-1.jpg" alt="Ticket name">
+              <div class="ticket__title">Presented by Blueprint</div>
+              <div class="ticket__text">Dirty south: #stereo</div>
+              <a class="ticket__link link" href="#">See ticket</a>
+              <span class="ticket__label">Hot !</span>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="ticket">
+              <img class="ticket__img" src="pict/tickets/h-ticket-2.jpg" alt="Ticket name">
+              <div class="ticket__title">Presented by Blueprint</div>
+              <div class="ticket__text">Problem</div>
+              <a class="ticket__link link" href="#">See ticket</a>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="ticket">
+              <img class="ticket__img" src="pict/tickets/h-ticket-3.jpg" alt="Ticket name">
+              <div class="ticket__title">Presented by Seasons, Monstercat</div>
+              <div class="ticket__text">Monstercat showcase</div>
+              <a class="ticket__link link" href="#">See ticket</a>
+              <span class="ticket__label">New !</span>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="ticket">
+              <img class="ticket__img" src="pict/tickets/h-ticket-4.jpg" alt="Ticket name">
+              <div class="ticket__title">Presented by Blueprint & Live Nation</div>
+              <div class="ticket__text">Griz - say it loud tour</div>
+              <a class="ticket__link link" href="#">See ticket</a>
+            </div>
+          </div>
+        </div>
+      
+
+
+      </section>
+      <!-- /.hot-tickets -->
     
 
+  
 
 
 
@@ -210,6 +271,7 @@
 <script>
   var flkty = new Flickity( '.main-gallery', {
    autoPlay: true,
+   pageDots: false,
    wrapAround: true,
    cellAlign: 'left',
    contain: true 

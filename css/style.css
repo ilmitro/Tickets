@@ -78,9 +78,12 @@
 /* -------- inline-grid -------- */
 .row--inline {
   font-size: 0;
+  margin-left: -5px;
+  margin-right: -5px;
 }
 .row--inline > div {
   float: none;
+  padding: 0 5px;
   display: inline-block;
   vertical-align: top;
 }
@@ -283,6 +286,10 @@
 }
 
 /* -------- promo -------- */
+.promo {
+  margin-bottom: 70px;
+}
+
 /* -------- description -------- */
 .description {
   position: absolute;
@@ -318,4 +325,112 @@
 .description--position-slider {
   top: 80px;
   right: 130px;
+}
+
+/* -------- section -------- */
+.section {
+  margin-bottom: 70px;
+}
+.section:before, .section:after {
+  content: '';
+  display: table;
+}
+.section:after {
+  clear: both;
+}
+.section__title {
+  float: left;
+  margin: 0;
+  font-size: 21px;
+  text-transform: uppercase;
+}
+
+/* -------- filter -------- */
+.filter {
+  float: right;
+  margin: 0;
+  padding: 0;
+  line-height: 24px;
+  list-style: none;
+}
+.filter__item {
+  display: inline-block;
+  margin-left: 10px;
+}
+.filter__link {
+  position: relative;
+  display: inline-block;
+  color: #a6a6a6;
+  padding-left: 30px;
+}
+.filter__link:before {
+  /* маркер */
+  position: absolute;
+  top: 9px;
+  left: 13px;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  content: '';
+  border-radius: 50%;
+  background-color: #a6a6a6;
+}
+.filter__link--active {
+  color: #333333;
+}
+.filter__link--active:before {
+  background-color: #333333;
+}
+
+/* -------- ticket -------- */
+.ticket {
+  position: relative;
+  margin-top: 40px;
+  border: 1px solid #cccccc;
+  background-color: #fff;
+}
+.ticket__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.ticket__title {
+  margin-left: 20px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #666666;
+}
+.ticket__text {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.ticket__label {
+  position: absolute;
+  bottom: 15px;
+  right: 35px;
+  padding: 3px 10px;
+  font-size: 11px;
+  border: 1px solid #ef8742;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ef8742;
+}
+.ticket__link {
+  display: inline-block;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: #666666;
+  background-color: #e6e6e6;
+}
+.ticket__link:hover {
+  color: #fff;
+  background-color: #1e84cc;
 }
