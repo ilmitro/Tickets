@@ -5,27 +5,16 @@
   top: 0;
   right: 0;
 
-  &__title {
+  &__name {
     margin-bottom: 10px;
+    font-size: 30px;
     font-weight: bold;
     color: #fff;
-
-    &--size-slider {
-      font-size: 30px;
-    }
   }
 
-  &__text {
+  &__date {
     margin-bottom: 25px;
-    color: $color-text-secondary;
-  }
-
-  .icon-star {
-    color: #f6b63a;
-
-    &--white {
-      color: #fff;
-    }
+    color: lighten($color-gray-base, 75%);
   }
 
   &__link {
@@ -41,5 +30,15 @@
   &--position-slider {
     top: 80px;
     right: 130px;
+  }
+
+  &--position-left {
+    top: 30px;
+    left: 30px;
+  }
+
+  &--position-right {
+    top: 30px;
+    right: 30px;
   }
 }

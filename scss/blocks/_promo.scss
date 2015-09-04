@@ -1,5 +1,14 @@
 /* -------- promo -------- */
 
 .promo {
-  margin-bottom: 70px;
+  position: relative;
+
+  &__img {
+    @include img-responsive;
+    margin-bottom: 12px;
+  }
+
+  &:first-child {
+    margin-top: 33px;
+  }
 }

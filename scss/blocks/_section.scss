@@ -1,12 +1,11 @@
 /* -------- section -------- */
 
 .section {
-  @include clearfix;
   margin-bottom: 70px;
 
   &__title {
-    float: left;
     margin: 0;
+    margin-bottom: 40px;
     font-size: $font-size-title;
     text-transform: uppercase;
   }

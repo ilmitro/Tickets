@@ -1,0 +1,64 @@
+/* -------- event -------- */
+
+.event {
+  margin-bottom: 40px;
+
+  &__title {
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: normal;
+    font-size: ($font-size-base - 1px);
+    color: $color-brand;
+  }
+
+  &__list {
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__item {
+    padding: 15px;
+    margin-bottom: 14px;
+    border: 1px solid $color-gray-lighter;
+    background-color: #fff;
+
+    .icon-calendar {
+      font-size: 20px;
+      color: $color-brand;
+    }
+  }
+
+  &__date {
+    line-height: 37px;
+    font-weight: bold;
+  }
+
+  &__name {
+    margin-bottom: 3px;
+    font-weight: bold;
+  }
+
+  &__location {
+    font-size: ($font-size-base - 2px);
+    color: $color-text-secondary; 
+  }
+
+  &__link {
+    display: inline-block;
+    line-height: 37px;
+    padding: 0 10px;
+    font-size: ($font-size-base - 4px);
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $color-text-secondary;
+    background-color: lighten($color-gray-base, 90%);
+
+    &:hover {
+      color: #fff;
+      background-color: $color-brand;
+    }
+  }
+}

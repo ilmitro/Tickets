@@ -2,7 +2,6 @@
 
 .ticket {
   position: relative;
-  margin-top: 40px;
   border: 1px solid $color-gray-lighter;
   background-color: #fff;
 
@@ -10,7 +9,7 @@
     @include img-responsive;
   }
 
-  &__title {
+  &__location {
     margin-left: 20px;
     margin-bottom: 5px;
     margin-top: 20px;
@@ -18,7 +17,7 @@
     color: $color-text-secondary;
   }
 
-  &__text {
+  &__name {
     margin-left: 20px;
     margin-bottom: 20px;
     font-weight: bold;
@@ -46,6 +45,7 @@
     font-size: ($font-size-base - 4px);
     border-radius: 4px;
     font-weight: bold;
+    text-transform: uppercase;
     color: $color-text-secondary;
     background-color: lighten($color-gray-base, 90%);
 

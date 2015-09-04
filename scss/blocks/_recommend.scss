@@ -1,0 +1,22 @@
+/* -------- recommend -------- */
+
+.recommend {
+  padding: 15px 0;
+  font-size: $font-size-base;
+  border: 1px solid $color-gray-lighter;
+  text-align: center;
+  background-color: #fff;
+
+  &__link {
+    display: inline-block;
+  }
+
+  &__img {
+    @include img-responsive;
+  }
+
+  &__name {
+    display: block;
+    margin-bottom: 5px;
+  }
+}
