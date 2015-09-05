@@ -348,10 +348,10 @@
 
 /* -------- filter -------- */
 .filter {
-  text-align: right;
   margin: 0;
   padding: 0;
   line-height: 24px;
+  text-align: right;
   list-style: none;
 }
 .filter__item {
@@ -548,6 +548,22 @@
   padding: 20px;
   border: 1px solid #cccccc;
   background-color: #fff;
+}
+.social--fbk {
+  background: url("../img/facebook.svg") right 10px bottom -25px no-repeat;
+  background-size: 20%;
+}
+.social--twr {
+  background: url("../img/twitter.svg") right 10px bottom -10px no-repeat;
+  background-size: 35%;
+}
+.social--glp {
+  background: url("../img/google.svg") right 10px bottom -25px no-repeat;
+  background-size: 35%;
+}
+.social--ins {
+  background: url("../img/instagram.svg") right 10px bottom -25px no-repeat;
+  background-size: 35%;
 }
 .social__name {
   margin-bottom: 15px;

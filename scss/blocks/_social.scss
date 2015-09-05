@@ -6,6 +6,26 @@
   border: 1px solid $color-gray-lighter;
   background-color: #fff;
 
+  &--fbk {
+    background: url('../img/facebook.svg') right 10px bottom -25px no-repeat;
+    background-size: 20%;
+  }
+
+  &--twr {
+    background: url('../img/twitter.svg') right 10px bottom -10px no-repeat;
+    background-size: 35%;
+  }
+
+  &--glp {
+    background: url('../img/google.svg') right 10px bottom -25px no-repeat;
+    background-size: 35%;
+  }
+
+  &--ins {
+    background: url('../img/instagram.svg') right 10px bottom -25px no-repeat;
+    background-size: 35%;
+  }
+
   &__name {
     margin-bottom: 15px;
     font-size: $font-size-base;
@@ -31,20 +51,20 @@
 
   &__title {
     margin-bottom: 10px;
-    font-size: ($font-size-base - 2px);
+    font-size: ($font-size-base - 2);
     font-weight: bold;
   }
 
   &__text {
     margin-bottom: 15px;
-    font-size: ($font-size-base - 3px);
+    font-size: ($font-size-base - 3);
     color: $color-text-secondary;
   }
 
   &__link {
     display: inline-block;
     padding: 8px 25px;
-    font-size: ($font-size-base - 3px);
+    font-size: ($font-size-base - 3);
     border: 1px solid $color-gray-lighter;
     border-radius: 4px;
     background-color: lighten($color-gray-base, 90%);
