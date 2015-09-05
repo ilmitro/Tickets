@@ -17,6 +17,14 @@
     color: lighten($color-gray-base, 75%);
   }
 
+  .icon-star {
+    color: #f6b63a;
+
+    &--gray {
+      color: $color-gray-lighter;
+    }
+  }
+
   &__link {
     display: block;
     margin-top: 15px;

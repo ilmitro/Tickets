@@ -27,6 +27,11 @@
     }
   }
 
+  .icon-menu {
+    padding: 15px;
+    padding-right: 30px;
+  }
+
   &__link {
     display: inline-block;
     padding: 25px;
@@ -41,11 +46,6 @@
       width: 275px;
       padding-left: 0;
       text-transform: none;
-    }
-
-    .icon-menu {
-      padding: 15px;
-      padding-right: 30px;
     }
   }
 
@@ -99,3 +99,4 @@
     }
   }
 }
+

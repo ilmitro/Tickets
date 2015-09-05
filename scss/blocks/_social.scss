@@ -1,0 +1,72 @@
+/* -------- social -------- */
+
+.social {
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid $color-gray-lighter;
+  background-color: #fff;
+
+  &__name {
+    margin-bottom: 15px;
+    font-size: $font-size-base;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    &--fbk {
+      color: #425f9c; 
+    }
+
+    &--twr {
+      color: #55acee;
+    }
+    
+    &--glp {
+      color: #dd4b39;
+    }
+
+    &--ins {
+      color: #2C5D7F;
+    }
+  }
+
+  &__title {
+    margin-bottom: 10px;
+    font-size: ($font-size-base - 2px);
+    font-weight: bold;
+  }
+
+  &__text {
+    margin-bottom: 15px;
+    font-size: ($font-size-base - 3px);
+    color: $color-text-secondary;
+  }
+
+  &__link {
+    display: inline-block;
+    padding: 8px 25px;
+    font-size: ($font-size-base - 3px);
+    border: 1px solid $color-gray-lighter;
+    border-radius: 4px;
+    background-color: lighten($color-gray-base, 90%);
+
+    &:hover {
+      color: #fff;
+    }
+
+    &--fbk:hover {
+      background-color: #425f9c;
+    }
+
+    &--twr:hover {
+      background-color: #55acee;
+    }
+
+    &--glp:hover {
+      background-color: #dd4b39;
+    }
+
+    &--ins:hover {
+      background-color: #2C5D7F;
+    }
+  }
+}

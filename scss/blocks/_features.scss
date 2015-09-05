@@ -1,0 +1,28 @@
+/* -------- feature -------- */
+
+.feature {
+  margin-bottom: 50px;
+
+  [class^="icon-"] {
+    display: inline-block;
+    padding: 15px 13px;
+    font-size: ($font-size-base + 5);
+    border-radius: 50%;
+    background-color: $color-brand;
+    color: #fff;
+  }
+
+  &__title {
+    margin-top: 5px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    font-size: ($font-size-base + 2);
+    font-weight: bold;
+  }
+
+  &__text {
+    margin-left: 5px;
+    font-size: $font-size-base;
+    color: $color-text-secondary;
+  }
+}

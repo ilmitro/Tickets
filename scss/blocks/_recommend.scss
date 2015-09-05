@@ -19,4 +19,12 @@
     display: block;
     margin-bottom: 5px;
   }
+
+  .icon-star {
+    color: #f6b63a;
+
+    &--gray {
+      color: $color-gray-lighter;
+    }
+  }
 }

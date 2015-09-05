@@ -1,0 +1,32 @@
+/* -------- footer-page -------- */
+
+.footer-page {
+  padding: 40px 0;
+  background-color: #2d2d30;
+  color: $color-text-secondary;
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: lighten($color-gray-base, 80%); 
+  }
+
+  &__link {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: ($font-size-base - 3);
+    color: $color-text-secondary;
+  }
+
+  &__text {
+    margin-top: 20px;
+    font-size: ($font-size-base - 3);
+    font-style: italic;
+  }
+}

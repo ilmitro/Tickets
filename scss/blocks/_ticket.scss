@@ -35,6 +35,11 @@
     text-transform: uppercase;
     font-weight: bold;
     color: #ef8742;
+
+    &--new {
+      color: $color-brand;
+      border-color: $color-brand;
+    }
   }
 
   &__link {
