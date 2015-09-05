@@ -16,5 +16,7 @@
     border: none;
     background-color: $color-brand;
     outline: none;
+    background: $color-brand url('../img/ic-email.svg') 50% 50% no-repeat;
+    background-size: 50%;
   }
 }

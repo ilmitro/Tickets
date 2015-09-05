@@ -4,11 +4,13 @@
   position: relative;
   line-height: 54px;
 
+
   &__input {
     width: 80%;
     padding: 11px 20px;
     font-style: italic;
     border: 1px solid $color-gray-lighter;
+    border-right: none;
     outline: none;
   }
 
@@ -17,9 +19,10 @@
     top: 6px;
     width: 41px;
     height: 42px;
-    background-color: #fff;
     border: 1px solid $color-gray-lighter;
     border-left: none;
     outline: none;
+    background: #fff url('../img/ic-search.svg') 50% 50% no-repeat;
+    background-size: 50%;
   }
 }

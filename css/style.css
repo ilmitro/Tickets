@@ -160,6 +160,7 @@
   padding: 11px 20px;
   font-style: italic;
   border: 1px solid #cccccc;
+  border-right: none;
   outline: none;
 }
 .form-search__btn {
@@ -167,10 +168,11 @@
   top: 6px;
   width: 41px;
   height: 42px;
-  background-color: #fff;
   border: 1px solid #cccccc;
   border-left: none;
   outline: none;
+  background: #fff url("../img/ic-search.svg") 50% 50% no-repeat;
+  background-size: 50%;
 }
 
 /* -------- cart -------- */
@@ -544,25 +546,25 @@
 
 /* -------- social -------- */
 .social {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   padding: 20px;
   border: 1px solid #cccccc;
   background-color: #fff;
 }
 .social--fbk {
-  background: url("../img/facebook.svg") right 10px bottom -25px no-repeat;
+  background: url("../img/ic-facebook.svg") right 10px bottom -25px no-repeat;
   background-size: 20%;
 }
 .social--twr {
-  background: url("../img/twitter.svg") right 10px bottom -10px no-repeat;
+  background: url("../img/ic-twitter.svg") right 10px bottom -10px no-repeat;
   background-size: 35%;
 }
 .social--glp {
-  background: url("../img/google.svg") right 10px bottom -25px no-repeat;
+  background: url("../img/ic-google.svg") right 10px bottom -25px no-repeat;
   background-size: 35%;
 }
 .social--ins {
-  background: url("../img/instagram.svg") right 10px bottom -25px no-repeat;
+  background: url("../img/ic-instagram.svg") right 10px bottom -25px no-repeat;
   background-size: 35%;
 }
 .social__name {
@@ -683,4 +685,6 @@
   border: none;
   background-color: #1e84cc;
   outline: none;
+  background: #1e84cc url("../img/ic-email.svg") 50% 50% no-repeat;
+  background-size: 50%;
 }

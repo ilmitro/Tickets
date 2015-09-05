@@ -1,28 +1,28 @@
 /* -------- social -------- */
 
 .social {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   padding: 20px;
   border: 1px solid $color-gray-lighter;
   background-color: #fff;
 
   &--fbk {
-    background: url('../img/facebook.svg') right 10px bottom -25px no-repeat;
+    background: url('../img/ic-facebook.svg') right 10px bottom -25px no-repeat;
     background-size: 20%;
   }
 
   &--twr {
-    background: url('../img/twitter.svg') right 10px bottom -10px no-repeat;
+    background: url('../img/ic-twitter.svg') right 10px bottom -10px no-repeat;
     background-size: 35%;
   }
 
   &--glp {
-    background: url('../img/google.svg') right 10px bottom -25px no-repeat;
+    background: url('../img/ic-google.svg') right 10px bottom -25px no-repeat;
     background-size: 35%;
   }
 
   &--ins {
-    background: url('../img/instagram.svg') right 10px bottom -25px no-repeat;
+    background: url('../img/ic-instagram.svg') right 10px bottom -25px no-repeat;
     background-size: 35%;
   }
 
@@ -33,7 +33,7 @@
     font-weight: bold;
 
     &--fbk {
-      color: #425f9c; 
+      color: #425f9c;
     }
 
     &--twr {
